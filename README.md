@@ -7,8 +7,7 @@ Firstly, I created a main folder called 'films', and input ls in the terminal to
      source .venv/bin/activate
      pip install --upgrade pip
 
-Then, I installed the Flask with
-     #
+Then, I installed the Flask with 
      pip install flask
 
 Secondly, in order to parse my csv files, I created a new folder called film_data and uploaded my files into the folder -- 'IMDB_Film.csv' and 'award.csv'. Before I imported my
@@ -84,7 +83,8 @@ The next, I put the following code in the terminal to import my data, and it too
      python3 parse_csv.py
 
 Furthermore, I created a index.html file in a new folder called 'templates', and put the following code in it, so that I could display my data on the web page with a search function
-<!--      <html>
+     #build the layout of web page
+     <html>
           <head>
                <title>Films and Their Award Details</title>
           </head>
@@ -132,7 +132,7 @@ Furthermore, I created a index.html file in a new folder called 'templates', and
                     {% endfor %}
                </table>  
           </body>
-          </html> -->
+     </html>
      
 Next step, in order to let the index.html page work, I created a film_and_award.py file, and put the following code in it
      import sqlite3
