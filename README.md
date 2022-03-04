@@ -83,7 +83,7 @@ The next, I put the following code in the terminal to import my data, and it too
      python3 parse_csv.py
 
 Furthermore, I created a index.html file in a new folder called 'templates', and put the following code in it, so that I could display my data on the web page with a search function
-     <html>
+<!--      <html>
           <head>
                <title>Films and Their Award Details</title>
           </head>
@@ -131,7 +131,7 @@ Furthermore, I created a index.html file in a new folder called 'templates', and
                     {% endfor %}
                </table>  
           </body>
-          </html>
+          </html> -->
      
 Next step, in order to let the index.html page work, I created a film_and_award.py file, and put the following code in it
      import sqlite3
