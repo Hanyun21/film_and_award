@@ -3,11 +3,12 @@ This web application is based on Pyhotn and Flask to parse use IMBD films and th
 
 Firstly, I created a main folder called 'films', and input ls in the terminal to check where I am. Next, I cd into the folder and excute the following command
      pyenv local 3.7.0
-     python3 -m venv .venv
+     python3 -m venv .venvCancel changes
      source .venv/bin/activate
      pip install --upgrade pip
 
 Then, I installed the Flask with
+     #
      pip install flask
 
 Secondly, in order to parse my csv files, I created a new folder called film_data and uploaded my files into the folder -- 'IMDB_Film.csv' and 'award.csv'. Before I imported my
